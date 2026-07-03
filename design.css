@@ -9,17 +9,18 @@ body{
     color:#333;
 }
 .hero{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding:60px 10%;
-    flex-wrap:wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    max-width: 70vw;
+    margin: auto;
 }
 .content{
     max-width:450px;
 }
 .content img{
-    size: 200px;
     width:200px;;
     margin-bottom:10px;
 }
@@ -30,10 +31,11 @@ body{
 .content p{
     color:#666;
     margin-bottom:25px;
+    font-family :sans-serif;
+    font-weight: 100;
 }
 .buttons img{
-    size:200px;
-    width: 200px;
+    width: 150px;
     padding:20px 10px;
 }
 .image img{
@@ -70,24 +72,31 @@ body{
     gap: 10px;
 }
 .heading{
-    font-size: 18px;
+    font-family: Avenir Next;
+    gap: 6px;
+    font-size: 50px;
+    letter-spacing: 10px;
 }
 .para{
     display: flex;
     flex-direction: column;
     color: gray;
     align-items: center;
+    font-family :sans-serif;
+    font-weight: 100;
 }
 
 .features2{
     display: flex;
-    justify-content: center;
+    justify-content:center;
+    align-items: center;
     margin-top: 30px;
     margin-bottom: 30px;
+    background:#fff;
 }
 .four-left img{
-    size: 450px;
-    width: 450px;
+    size: 500px;
+    width: 500px;
     padding:20px 10px;
 }
 .four-right{
@@ -97,16 +106,26 @@ body{
     align-items: center;
     gap: 15px;
 }
+.four-right img{
+    size: 500px;
+    width: 500px;
+}
+.four-right h2{
+    gap: 6px;
+    font-size: 50px;
+    letter-spacing: 10px;
+}
 footer{
     text-align:center;
     padding:50px 20px;
-    background:#fff;
     margin-top:50px;
 }
 footer p{
+    font-size: 30px;
     margin-bottom:20px;
+    font-weight:100 ;
+    font-family: poppins;
 }
-.contact{
+.contact span{
     color:#2196f3;
-    font-weight:bold;
 }
